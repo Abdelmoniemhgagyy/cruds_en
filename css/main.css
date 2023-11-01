@@ -1,0 +1,205 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color:#2a009e;
+}
+body{
+    height:100vh;
+    width:100%;
+    background-color: #777;
+    font-family:sans-serif,Arial, Helvetica, sans-serif
+
+}
+
+.curds {
+   width:80%;
+  
+}
+/* --------header------------------- */
+header{
+    text-align: center;
+    padding:20px 0;
+    text-transform: uppercase;
+}
+header h1{
+    margin: 10px;
+}
+header p {
+    font-size: 20px;
+    margin:10px;
+    color: #ffffff;
+
+}
+/* ------------------------------------ */
+
+/* ----------------inputs-------------- */
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs input,button[id="create"] {
+    padding:10px 8px;
+    margin:10px 0 ;
+    background-color: #333;
+    outline: none;
+    border: none;
+    border-radius:10px;
+    color: #fff;
+}
+.inputs input:focus {
+    background-color: #222;
+    transform: scale(1.015);
+    color: #fff;
+}
+
+.prices span {
+    background-color: #2a009e;
+    color: white;
+    padding: 4px;
+
+}
+.prices span::before{
+    content:"Total : "
+}
+#title,#count,#category,button[id="create"] {
+    width: 80%;
+    color:white;
+    
+}
+
+::placeholder{
+color: #d3d3d3;
+}
+
+button[id="create"] {
+    border-radius:20px;
+    background-color: #2a009e;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+button[id="create"]:hover{
+    letter-spacing:1px;
+    background-color: #2a009ecc;
+}
+
+/* ----------------------------------------- */
+.outputs{
+    width: 100%; 
+    text-align: center;
+}
+.search-box {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.search-box input {
+    padding:10px 8px;
+    margin:10px 0 ;
+    background-color: #333;
+    outline: none;
+    border: none;
+    border-radius:10px;
+    width: 80%;
+    
+} 
+.search-box input:focus{
+      background-color: #222;
+    transform: scale(1.015);
+    color: #fff;
+}
+.btn{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.btn .btnn {
+    background-color: #2a009e;
+    margin: 10px 40px;
+    padding: 10px;
+    border-radius:20px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #fff;
+    outline: none;
+    border: none;
+    width:30%
+}
+button:hover{
+    letter-spacing:1px;
+    background-color: #2a009ecc;
+}
+ .table{
+    width: 100%;
+
+} 
+table{
+    width:100%;
+    text-align: center;
+    margin:15px auto 15px auto;
+    width: 80%;
+}
+table .btn{
+    background-color: var(--main-color);
+    padding: 5px;
+    margin: 5px 5px 5px 7px;
+    border-radius:20px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+th,tr{
+    text-transform: uppercase;
+    color:#fff;
+
+}
+/* ----------------Outputs----------------------- */
+
+/* btn delete all  */
+
+#deleteall{
+    margin: 10px 0 ;
+    /* width: 100%; */
+}
+#deleteall button {
+    background-color: #2a009e;
+   
+    padding: 10px;
+    border-radius:20px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #fff;
+    outline: none;
+    border: none;
+    width:80%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------- */
